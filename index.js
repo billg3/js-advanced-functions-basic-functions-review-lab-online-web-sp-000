@@ -23,6 +23,3 @@ const Calculator = {
 function Calculator.add(x,y){
   return `${x} + ${y}`
 }
-
-
-}
