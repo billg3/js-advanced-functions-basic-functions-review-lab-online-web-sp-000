@@ -11,14 +11,8 @@ function mondayWork (x = "go to the office"){
 
 
 
-function wrapAdjective (thing = "*"){
-
-  return function(adjective = "special"){
-
-    return `you are ${thing} ${adjective} ${thing}`
+let wrapAdjective = function(style="*") {
+  return function(adjective="special") {
+    return `You are ${style}${adjective}${style}!`
   }
-
-
-
-
 }
