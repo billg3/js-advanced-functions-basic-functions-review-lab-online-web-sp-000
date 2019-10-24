@@ -17,7 +17,7 @@ function wrapAdjective (thing = "*"){
 
     return `you are ${thing} ${adjective} ${thing}`
   }
-  
+
 
 
 
