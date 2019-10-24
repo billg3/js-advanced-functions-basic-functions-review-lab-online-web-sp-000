@@ -16,3 +16,13 @@ let wrapAdjective = function(style="*") {
     return `You are ${style}${adjective}${style}!`
   }
 }
+
+
+const Calculator = {
+
+function Calculator.add(x,y){
+  return `${x} + ${y}`
+}
+
+
+}
