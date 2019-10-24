@@ -9,9 +9,15 @@ function mondayWork (x = "go to the office"){
   return `This Monday, I will ${x}.`
 }
 
-function wrapAdjective (abc = "*"){
 
 
+function wrapAdjective (thing = "*"){
+
+  return function(adjective = "special"){
+
+    return `you are ${thing} ${adjective} ${thing}`
+  }
+  
 
 
 
